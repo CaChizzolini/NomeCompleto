@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿﻿Console.Clear();
+string nome; 
+Console.WriteLine("Digite seu nome:");
+nome = Console.ReadLine()!;
+string sobrenome;
+Console.WriteLine("Digite seu sobrenome:");
+sobrenome = Console.ReadLine()!;
+Console.WriteLine($"Nome completo: {nome} {sobrenome}");
+Console.WriteLine($"Nome de catalogo: {sobrenome.ToUpper()}, {nome}");
+Console.WriteLine();
