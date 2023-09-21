@@ -1,4 +1,4 @@
-﻿﻿Console.Clear();
+﻿Console.Clear();
 string nome; 
 Console.WriteLine("Digite seu nome:");
 nome = Console.ReadLine()!;
